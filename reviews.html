@@ -12,37 +12,36 @@
 
     <!--heder-->
 
-    <header class="header">
+    <header class="header block-color">
         <div class="logo"><img src="img/logo/logo_site.png" alt="" class="logo__img"></div>
-        <div class="contacts">
-            <div class="contacts__phone">8 (800) 00-392-10</div>
-            <div class="contact__schedule">График работы</div>
+        <div class="contacts contacts_position">
+            <a href="tel:88000039210" class="contacts__phone contacts__phone_position">8 (800) 00-392-10</a>
+            <a href="#" class="contact__schedule">График работы</a>
         </div>
     </header>
-
     <section class="content">
 
         <!--sidebar-->
-
+        
         <aside class="sidebar">
             <nav class="menu">
-                <ul class="menu-nav">
+                <ul class="menu-nav menu-nav_position list_style">
                     <li class="menu-nav__item">
-                        <a href="index.html" class="menu-nav__link">
-                            <div class="menu-nav__img"><img src="img/icons/sidebar_index_black.png" alt=""></div>
-                            <div class="menu-nav__text">Главная</div>
+                        <a href="index.html" class="menu-nav__link  menu-nav__link_active">
+                            <div class="menu-nav__img menu-nav__icon-index"></div>
+                            <div class="menu-nav__text menu-nav__text_position">Главная</div>
                         </a>
                     </li>
                     <li class="menu-nav__item">
                         <a href="#" class="menu-nav__link">
-                            <div class="menu-nav__img"><img src="img/icons/sidebar_crew_blue.png" alt=""></div>
-                            <div class="menu-nav__text">Экипаж</div>
+                            <div class="menu-nav__img menu-nav__icon-crew"></div>
+                            <div class="menu-nav__text menu-nav__text_position">Экипаж</div>
                         </a>
                     </li>
                     <li class="menu-nav__item">
                         <a href="reviews.html" class="menu-nav__link">
-                            <div class="menu-nav__img"><img src="img/icons/sidebar_star_blue.png" alt=""></div>
-                            <div class="menu-nav__text">Отзывы</div>
+                            <div class="menu-nav__img menu-nav__icon-star"></div>
+                            <div class="menu-nav__text menu-nav__text_position">Отзывы</div>
                         </a>
                     </li>
                 </ul>
@@ -52,84 +51,85 @@
         <!--page-->
 
         <main class="page">
-            <ul class="breadcrumbs">
+            <ul class="breadcrumbs list_style">
                 <li class="breadcrumbs_item">
-                    <a href="#" class="breadcrumbs_list">Главная</a>
+                    <a href="#" class="breadcrumbs__list">Главная</a>
                 </li>
-                <li class="breadcrumbs_item breadcrumbs__active">
-                    Отзывы
+                <li class="breadcrumbs_item"><a href="#" class="breadcrumbs__list breadcrumbs__list_active">/ Отзывы</a>
                 </li>
             </ul>
             <h1 class="name-page">Отзывы</h1>
 
             <!--page-reviews-->
+            <div class="page__reviews">
+                <article class="article">
+                    <div class="review">
+                        <div class="review-photo"><img src="img/reviews/reviews_img_1.jpg" alt="" class="review-photo__img"></div>
+                        <div class="review-comment">
+                            <time datetime="2016-10-12" class="review-comment_time">12.10.2016</time>
+                            <p class="review-comment__name text_bold">Ирина Паламарчук</p>
+                            <p class="review-comment__text">Ужасный полет, трясло первые полчаса так, что я боялась отстегнуть ремни.
+                                Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было.
+                                Не рекомендую эту компанию, лучше доплатить и лететь с комфортом.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="review">
+                        <div class="review-photo"><img src="img/reviews/reviews_img_2.jpg" alt="" class="review-photo__img"></div>
+                        <div class="review-comment">
+                            <time datetime="2016-02-01" class="review-comment_time">01.02.2016</time>
+                            <p class="review-comment__name text_bold">Александр Бельков</p>
+                            <p class="review-comment__text">Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза,
+                                а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема,
+                                рост 2,1м.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="review">
+                        <div class="review-photo"><img src="img/reviews/reviews_img_3.jpg" alt="" class="review-photo__img"></div>
+                        <div class="review-comment">
+                            <time datetime="2015-12-22" class="review-comment_time">22.12.2015</time>
+                            <p class="review-comment__name text_bold">Игорь Николаенко</p>
+                            <p class="review-comment__text">Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов.
+                                Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались.
+                                Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="review">
+                        <div class="review-photo"><img src="img/reviews/reviews_img_4.jpg" alt="" class="review-photo__img"></div>
+                        <div class="review-comment">
+                            <time datetime="2015-08-14" class="review-comment_time">14.08.2015</time>
+                            <p class="review-comment__name text_bold">Анастасия Порядная</p>
+                            <p class="review-comment__text">За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы.
+                                Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
+                            </p>
+                        </div>
+                    </div>
+                </article>
 
-            <article class="article">
-                <div class="review">
-                    <div class="review-photo"><img src="img/reviews/reviews_img_1.jpg" alt=""></div>
-                    <div class="review-comment">
-                        <time datetime="2016-10-12" class="review-comment_time">12.10.2016</time>
-                        <p class="review-comment__name">Ирина Паламарчук</p>
-                        <p class="review-comment__text">Ужасный полет, трясло первые полчаса так, что я боялась отстегнуть ремни.
-                            Слава Богу, ничего не случилось, но мне даже валерьянка не помогла, так страшно было.
-                            Не рекомендую эту компанию, лучше доплатить и лететь с комфортом.
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="review">
-                    <div class="review-photo"><img src="img/reviews/reviews_img_2.jpg" alt=""></div>
-                    <div class="review-comment">
-                        <time datetime="2016-02-01" class="review-comment_time">01.02.2016</time>
-                        <p class="review-comment__name">Александр Бельков</p>
-                        <p class="review-comment__text">Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза,
-                            а еду – 1 раз. Единственное, что не понравилось, как то мало места для ног, но с этим у меня часто проблема,
-                            рост 2,1м.
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="review">
-                    <div class="review-photo"><img src="img/reviews/reviews_img_3.jpg" alt=""></div>
-                    <div class="review-comment">
-                        <time datetime="2015-12-22" class="review-comment_time">22.12.2015</time>
-                        <p class="review-comment__name">Игорь Николаенко</p>
-                        <p class="review-comment__text">Не кормили вообще! Сказали, что это из-за того, что полет менее 2,5 часов.
-                            Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались.
-                            Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.
-                        </p>
-                    </div>
-                </div>
-            </article>
-            <article class="article">
-                <div class="review">
-                    <div class="review-photo"><img src="img/reviews/reviews_img_4.jpg" alt=""></div>
-                    <div class="review-comment">
-                        <time datetime="2015-08-14" class="review-comment_time">14.08.2015</time>
-                        <p class="review-comment__name">Анастасия Порядная</p>
-                        <p class="review-comment__text">За такую цену просто все отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы.
-                            Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!
-                        </p>
-                    </div>
-                </div>
-            </article>
+            </div>
 
             <!--pagination-->
 
             <div class="pagination">
                 <div class="pagination-page">Страница 1 из 7 </div>
-                <ul class="pagination-list">
-                    <li class="pagination-list__item pagination-list__item_disable"><a href="#"><</a></li>
-                    <li class="pagination-list__item pagination-list__item_active"><a href="#">1</a></li>
-                    <li class="pagination-list__item"><a href="#">2</a></li>
-                    <li class="pagination-list__item"><a href="#">3</a></li>
-                    <li class="pagination-list__item"><a href="#">4</a></li>
-                    <li class="pagination-list__item"><a href="#">5</a></li>
-                    <li class="pagination-list__item"><a href="#">6</a></li>
-                    <li class="pagination-list__item"><a href="#">7</a></li>
-                    <li class="pagination-list__item"><a href="#">></a></li>
+                <ul class="pagination-list list_style">
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link pagination-list__list_disable"><</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link pagination-list__list_active">1</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">2</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">3</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">4</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">5</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">6</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">7</a></li>
+                    <li class="pagination-list__item"><a href="#" class="pagination-list__link">></a></li>
                 </ul>
             </div>
 
@@ -157,23 +157,24 @@
 
     <!--footer-->
 
-    <footer class="footer">
+    <footer class="footer block-color">
         <div class="author">
             <div>Сделано с любовью и старанием
-                <div>на курсе «HTML + CSS» в <a href="#" class="info__link">LoftSchool</a>.</div>
-                <div>Автор работы: <span class="author__bold">Прохладов Вадим</span></div>
+                <div>на курсе «HTML + CSS» в <a href="#" class="info__link  text_bold">LoftSchool</a>.</div>
+                <div>Автор работы: <span class="text_bold">Прохладов Вадим</span></div>
             </div>
-            <div class="logo"><img src="img/logo/logo_site.png" alt=""></div>
-            <div class="social">
-                <div class="social-text">Наши социальные сети</div>
-                <ul class="social-link">
-                    <li class="social-link__item"><a href="#"><img src="img/icons/social_vk.png" alt=""></a></li>
-                    <li class="social-link__item"><a href="#"><img src="img/icons/social_fb.png" alt=""></a></li>
-                    <li class="social-link__item"><a href="#"><img src="img/icons/social_gp.png" alt=""></a></li>
-                    <li class="social-link__item"><a href="#"><img src="img/icons/social_tw.png" alt=""></a></li>
-                    <li class="social-link__item"><a href="#"><img src="img/icons/social_mail.png" alt=""></a></li>
-                </ul>
-            </div>
+        </div>
+        <div class="logo logo_position"><img src="img/logo/logo_site.png" alt=""></div>
+        <div class="social">
+            <div class="social-text text_bold">Наши социальные сети</div>
+            <ul class="social-link list_style">
+                <li class="social-link__item"><a href="#" class="social-link__link"><img src="img/icons/social_vk.png" alt=""></a></li>
+                <li class="social-link__item"><a href="#" class="social-link__link"><img src="img/icons/social_fb.png" alt=""></a></li>
+                <li class="social-link__item"><a href="#" class="social-link__link"><img src="img/icons/social_gp.png" alt=""></a></li>
+                <li class="social-link__item"><a href="#" class="social-link__link"><img src="img/icons/social_tw.png" alt=""></a></li>
+                <li class="social-link__item"><a href="#" class="social-link__link"><img src="img/icons/social_mail.png" alt=""></a></li>
+            </ul>
+        </div>
     </footer>
 </div>
 </body>
