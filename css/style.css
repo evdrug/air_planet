@@ -605,10 +605,10 @@ body {
     background-color: #1C5BC3;
     position: relative;
     font-size: 0;
+    color: #ffffff;
 }
 
 .btn__text {
-    color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -631,6 +631,15 @@ body {
     height: 14px;
     background-image: url("../img/icons/btn_img_white.png");
     background-size: cover;
+}
+
+.form__btn:hover {
+    background-color: #ffffff;
+    color: #1C5BC3;
+}
+
+.form__btn:hover .btn__img {
+    background-image: url("../img/icons/btn_img_blue.png");
 }
 
 .form__btn_positioon {
