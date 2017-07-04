@@ -23,7 +23,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -33,7 +32,6 @@ body {
     color: #221f1f;
     font-size: 14px;
     background: #cfd8dc;
-
 }
 
 .list_style {
@@ -56,13 +54,13 @@ body {
     min-width: 100%;
     overflow: hidden;
 }
+
 .header_padding {
     padding: 20px 21px 16px 20px;
 }
 
 .block-color {
     background: #1c5bc3;
-
 }
 
 .logo {
@@ -99,7 +97,6 @@ body {
     font-weight: bold;
     color: #ffffff;
     opacity: .7;
-
 }
 
 /*content*/
@@ -113,7 +110,6 @@ body {
 .sidebar {
     float: left;
     width: 200px;
-
 }
 
 .sidebar_padding {
@@ -123,7 +119,6 @@ body {
 
 .menu-nav_position {
     padding-left: 10px;
-
 }
 
 .menu-nav__item {
@@ -163,7 +158,6 @@ body {
     padding-left: 14px;
     padding-top: 3px;
     letter-spacing: 2px;
-
 }
 
 .menu-nav__link:hover .menu-nav__text, .menu-nav__link_active .menu-nav__text {
@@ -200,7 +194,6 @@ body {
     display: inline-block;
     margin-top: -3px;
     width: 900px;
-
 }
 
 .index-page {
@@ -249,7 +242,6 @@ body {
 
 .page__clients {
     font-size: 16px;
-    /*line-height: 21px;*/
     font-weight: normal;
     letter-spacing: 1.1px;
 }
@@ -292,10 +284,6 @@ body {
     font-weight: bold;
 }
 
-.partners__list {
-
-}
-
 .partners__list_position {
     padding-top: 50px;
     margin-left: -3px;
@@ -323,7 +311,6 @@ body {
 
 .partners__link {
     filter: grayscale(1);
-    display: inline-block;
     vertical-align: middle;
     display: table-cell;
 
@@ -358,15 +345,12 @@ body {
 
 }
 
-.author_position {
-}
-
 .author_margin {
     margin-bottom: 2px;
 }
 
 .author_margin:last-child {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .logo_position {
@@ -381,7 +365,6 @@ body {
 }
 
 .social_position {
-    /*margin: 17px 20px 0 0;*/
     padding-top: 5px;
 }
 
@@ -443,10 +426,6 @@ body {
     width: 879px;
 }
 
-.page__reviews_position {
-}
-
-
 .review {
     padding-bottom: 19px;
     margin-bottom: 25px;
@@ -481,7 +460,6 @@ body {
 
 .review-comment_position {
     padding-left: 1px;
-    /*padding-bottom: 18px;*/
 }
 
 .review-comment_time {
@@ -490,7 +468,6 @@ body {
 }
 
 .review-comment__name_position {
-    /*margin-top: 4px;*/
     padding-top: 6px;
 }
 
@@ -500,7 +477,6 @@ body {
 
 .review-comment__text_position {
     padding-top: 10px;
-    /*margin-top: 9px;*/
 }
 
 .review {
@@ -706,6 +682,7 @@ body {
 .form__radio-label {
     margin-right: 12px;
 }
+
 .clearfix {
     clear: both;
 }
