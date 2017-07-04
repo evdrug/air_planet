@@ -53,9 +53,11 @@ body {
 /*header*/
 .header {
     display: inline-block;
-    min-height: 76px;
     min-width: 100%;
     overflow: hidden;
+}
+.header_padding {
+    padding: 20px 21px 16px 20px;
 }
 
 .block-color {
@@ -64,10 +66,7 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
-    margin-left: 20px;
     float: left;
-    overflow: hidden;
 
 }
 
@@ -77,8 +76,7 @@ body {
 
 .contacts_position {
     float: right;
-    margin-top: 17px;
-    margin-right: 21px;
+    margin-top: -3px;
 }
 
 .contacts__phone {
@@ -86,6 +84,10 @@ body {
     color: white;
     font-size: 21px;
     text-decoration: none;
+}
+
+.contacts__phone_s {
+    font-size: 18px;
 }
 
 .contacts__phone_position {
@@ -111,16 +113,29 @@ body {
 .sidebar {
     float: left;
     width: 200px;
+
+}
+
+.sidebar_padding {
+    padding-top: 42px;
+    padding-left: 7px;
 }
 
 .menu-nav_position {
-    margin-top: 40px;
-    margin-left: 7px;
+    padding-left: 10px;
+
 }
 
 .menu-nav__item {
     display: inline-block;
-    padding-left: 10px;
+}
+
+.menu-nav__item_margin {
+    margin-bottom: 30px;
+}
+
+.menu-nav__item_margin:last-child {
+    margin-bottom: 0;
 }
 
 .menu-nav__link {
@@ -145,10 +160,9 @@ body {
 }
 
 .menu-nav__text_position {
-    margin-left: 14px;
+    padding-left: 14px;
     padding-top: 3px;
     letter-spacing: 2px;
-    margin-bottom: 33px;
 
 }
 
@@ -184,7 +198,7 @@ body {
 
 .page {
     display: inline-block;
-    margin-top: -4px;
+    margin-top: -3px;
     width: 900px;
 
 }
@@ -196,6 +210,7 @@ body {
 
 .index-page_position {
     position: relative;
+    padding-left: 1px;
 }
 
 .index-page__img {
@@ -210,7 +225,7 @@ body {
 
 .index-page__text_position {
     position: absolute;
-    top: 148px;
+    top: 118px;
     left: 65px;
 }
 
@@ -261,8 +276,9 @@ body {
     color: #ffffff;
 }
 
-.info_padding {
+.info_padding-margin {
     padding: 13px 73px 11px 30px;
+    margin-bottom: 75px;
 }
 
 .info__link {
@@ -270,9 +286,6 @@ body {
 }
 
 /*page-partners*/
-.partners_position {
-    margin-top: 75px;
-}
 
 .partners__title {
     font-size: 49px;
@@ -284,8 +297,9 @@ body {
 }
 
 .partners__list_position {
-    margin-top: 44px;
-    margin-left: 1px;
+    padding-top: 50px;
+    margin-left: -3px;
+    margin-bottom: 6px;
 }
 
 .partners__item {
@@ -296,9 +310,11 @@ body {
 
 .partners__item_position {
     margin-right: 92px;
-    margin-bottom: 60px;
-    vertical-align: bottom;
-    position: relative;
+    margin-bottom: 54px;
+    vertical-align: middle;
+    display: inline-table;
+    text-align: center;
+    width: 168px;
 }
 
 .partners__item:nth-child(3n) {
@@ -307,6 +323,9 @@ body {
 
 .partners__link {
     filter: grayscale(1);
+    display: inline-block;
+    vertical-align: middle;
+    display: table-cell;
 
 }
 
@@ -324,8 +343,12 @@ body {
     color: #ffffff;
     height: 77px;
     width: 100%;
-    /*overflow: hidden;*/
+    overflow: hidden;
     position: relative;
+}
+
+.footer_padding {
+    padding: 13px 20px 13px 19px;
 }
 
 .author {
@@ -336,13 +359,21 @@ body {
 }
 
 .author_position {
-    margin: 13px 0 13px 19px;
+}
+
+.author_margin {
+    margin-bottom: 2px;
+}
+
+.author_margin:last-child {
+    margin-bottom:0;
 }
 
 .logo_position {
     position: absolute;
     left: 50%;
     margin-left: -60px;
+    padding-top: 6px;
 }
 
 .social {
@@ -350,7 +381,8 @@ body {
 }
 
 .social_position {
-    margin: 17px 20px 0 0;
+    /*margin: 17px 20px 0 0;*/
+    padding-top: 5px;
 }
 
 .social-link__item {
@@ -358,6 +390,7 @@ body {
 }
 
 .social-link__link {
+    display: inline-block;
     opacity: .7;
 }
 
@@ -373,10 +406,14 @@ body {
     margin-right: 7px;
 }
 
+.social-link__item_position:last-child {
+    margin-right: 0;
+}
+
 /*page-reviews*/
 
-.breadcrumbs_position {
-    margin-top: 43px;
+.page_padding {
+    margin-top: 40px;
 }
 
 .breadcrumbs__item {
@@ -398,20 +435,21 @@ body {
 }
 
 .name-page_position {
-    margin-top: 15px;
+    margin-top: 19px;
     margin-left: -3px;
 }
 
-.page__reviews_position {
-    margin-top: 30px;
+.page__reviews {
+    width: 879px;
 }
 
-.article {
-    margin-top: 22px;
-    width: 877px;
+.page__reviews_position {
 }
+
 
 .review {
+    padding-bottom: 19px;
+    margin-bottom: 25px;
 }
 
 .review-photo {
@@ -424,9 +462,9 @@ body {
 }
 
 .review-photo_position {
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: 15px;
-    margin-bottom: 26px;
+    margin-bottom: 8px;
 }
 
 .review-photo__img {
@@ -436,14 +474,14 @@ body {
 
 .review-comment {
     display: inline-block;
-    width: 696px;
+    width: 700px;
     font-size: 18px;
     vertical-align: top;
 }
 
 .review-comment_position {
-    margin-top: 2px;
-    margin-left: 2px;
+    padding-left: 1px;
+    /*padding-bottom: 18px;*/
 }
 
 .review-comment_time {
@@ -452,7 +490,8 @@ body {
 }
 
 .review-comment__name_position {
-    margin-top: 4px;
+    /*margin-top: 4px;*/
+    padding-top: 6px;
 }
 
 .review-comment__text {
@@ -460,15 +499,17 @@ body {
 }
 
 .review-comment__text_position {
-    margin-top: 9px;
+    padding-top: 10px;
+    /*margin-top: 9px;*/
 }
 
-.article {
+.review {
     border-bottom: solid 2px #f5f5f5;
 }
 
-.article:last-child {
+.review:last-child {
     border-bottom: none;
+    margin-bottom: 0;
 }
 
 .pagination {
@@ -476,8 +517,9 @@ body {
 }
 
 .pagination_position {
-    margin-top: 20px;
-    margin-left: -111px;
+    padding-top: 21px;
+    margin-left: -112px;
+    margin-bottom: 70px;
 }
 
 .pagination-page, .pagination-list, .pagination-list__item {
@@ -533,8 +575,7 @@ body {
 }
 
 .form_position {
-    margin-top: 70px;
-    padding-top: 40px;
+    padding-top: 43px;
     padding-left: 68px;
     margin-bottom: 71px;
 }
@@ -550,8 +591,10 @@ body {
 }
 
 .form__wrapper_position {
-    margin-top: 15px;
+    padding-top: 15px;
     margin-right: 19px;
+    margin-bottom: 18px;
+
 }
 
 .form__input {
@@ -562,13 +605,13 @@ body {
 }
 
 .form__input_position {
-    margin-top: 6px;
+    margin-top: 8px;
     padding-left: 10px;
     letter-spacing: .5px;
 }
 
 .form__comment_position {
-    margin-top: 18px;
+    margin-bottom: 14px;
 }
 
 .comment__text {
@@ -586,7 +629,6 @@ body {
 }
 
 .form__botton_position {
-    margin-top: 13px;
 }
 
 .form__botton {
@@ -637,6 +679,7 @@ body {
 .form__btn:hover {
     background-color: #ffffff;
     color: #1C5BC3;
+    cursor: pointer;
 }
 
 .form__btn:hover .btn__img {
@@ -662,4 +705,7 @@ body {
 
 .form__radio-label {
     margin-right: 12px;
+}
+.clearfix {
+    clear: both;
 }

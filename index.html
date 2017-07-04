@@ -5,6 +5,7 @@
     <title>A•I•R-PLANET-Главная</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,8 +13,8 @@
 
         <!--heder-->
 
-        <header class="header block-color">
-            <div class="logo"><img src="img/logo/logo_site.png" alt="" class="logo__img"></div>
+        <header class="header block-color header_padding">
+            <div class="logo"><a href="index.html" class="logo__link"><img src="img/logo/logo_site.png" alt="" class="logo__img"></a></div>
             <div class="contacts contacts_position">
                 <a href="tel:88000039210" class="contacts__phone contacts__phone_position">8 (800) 00-392-10</a>
                 <a href="#" class="contact__schedule">График работы</a>
@@ -24,22 +25,22 @@
 
             <!--sidebar-->
 
-            <aside class="sidebar">
+            <aside class="sidebar sidebar_padding">
                 <nav class="menu">
-                    <ul class="menu-nav menu-nav_position list_style">
-                        <li class="menu-nav__item">
+                    <ul class="menu-nav list_style menu-nav_position">
+                        <li class="menu-nav__item menu-nav__item_margin">
                             <a href="index.html" class="menu-nav__link  menu-nav__link_active">
                                 <div class="menu-nav__img menu-nav__icon-index"></div>
                                 <div class="menu-nav__text menu-nav__text_position">Главная</div>
                             </a>
                         </li>
-                        <li class="menu-nav__item">
+                        <li class="menu-nav__item menu-nav__item_margin">
                             <a href="#" class="menu-nav__link">
                                 <div class="menu-nav__img menu-nav__icon-crew"></div>
                                 <div class="menu-nav__text menu-nav__text_position">Экипаж</div>
                             </a>
                         </li>
-                        <li class="menu-nav__item">
+                        <li class="menu-nav__item menu-nav__item_margin">
                             <a href="reviews.html" class="menu-nav__link">
                                 <div class="menu-nav__img menu-nav__icon-star"></div>
                                 <div class="menu-nav__text menu-nav__text_position">Отзывы</div>
@@ -88,13 +89,13 @@
                             <!--Мы будем рады видеть вас среди наших клиентов!-->
                         <!--</p>-->
                     </div>
-                    <div class="info info_padding">
-                        Бронировать билеты в нашей авиакомпании удобно. Для этого можно оставить <a href="#" class="info__link text_bold">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <span class="text_bold">8 (800) 00-392-10</span>.
+                    <div class="info info_padding-margin">
+                        Бронировать билеты в нашей авиакомпании удобно. Для этого можно оставить <a href="#" class="info__link text_bold">заявку на сайте</a> или же позвонить по номеру круглосуточной поддержки <a href="tel:88000039210" class="contacts__phone contacts__phone_s">8 (800) 00-392-10</a>.
                     </div>
 
                     <!--page-partenrs-->
 
-                    <div class="partners partners_position">
+                    <div class="partners ">
                         <h2 class="partners__title">Партнёры</h2>
                         <ul class="partners__list list_style partners__list_position">
                             <li class="partners__item partners__item_position">
@@ -134,14 +135,14 @@
 
         <!--footer-->
 
-        <footer class="footer block-color">
+        <footer class="footer block-color footer_padding">
             <div class="author author_position">
-                <div>Сделано с любовью и старанием
-                    <div>на курсе «HTML + CSS» в <a href="#" class="info__link  text_bold">LoftSchool</a>.</div>
-                    <div>Автор работы: <span class="text_bold">Прохладов Вадим</span></div>
-                </div>
+                <div class="author_margin">Сделано с любовью и старанием</div>
+                    <div class="author_margin">на курсе «HTML + CSS» в <a href="#" class="info__link  text_bold">LoftSchool</a>.</div>
+                    <div class="author_margin">Автор работы: <span class="text_bold">Друзьякин Евгений</span></div>
+
             </div>
-            <div class="logo logo_position"><img src="img/logo/logo_site.png" alt=""></div>
+            <div class="logo logo_position"><a href="index.html" class="logo__link"><img src="img/logo/logo_site.png" alt=""></a></div>
             <div class="social social_position">
                     <div class="social-text text_bold">Наши социальные сети</div>
                     <ul class="social-link list_style social-link_position">
