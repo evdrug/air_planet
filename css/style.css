@@ -285,7 +285,7 @@ body {
 
 /*page-partners*/
 .partners {
-    padding-bottom: 4px;
+    padding-bottom: 2px;
 }
 
 .partners__title {
@@ -294,8 +294,8 @@ body {
 }
 
 .partners__list_position {
-    padding-top: 50px;
-    margin-left: -3px;
+    padding-top: 52px;
+    margin-left: -4px;
     margin-bottom: 6px;
 }
 
