@@ -53,19 +53,17 @@ body {
     width: 100%;
 }
 
-.header_padding{
-    padding-top: 20px;
-    padding-bottom: 16px;
-}
-
 .wrapper_p {
     margin: 0 auto;
     width: 1100px;
 }
 
 .header_wrapper_padding {
+    padding-top: 20px;
+    padding-bottom: 16px;
     padding-left: 20px;
     padding-right: 21px;
+
 }
 
 .block-color {
@@ -338,14 +336,11 @@ body {
     position: relative;
 }
 
-.footer_padding {
-    padding-top: 13px ;
-    padding-bottom: 12px;
-}
-
 .footer-wrapper_padding {
     padding-left: 20px;
     padding-right: 19px;
+    padding-top: 13px ;
+    padding-bottom: 12px;
 }
 
 .author {
@@ -641,7 +636,7 @@ body {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1.7px;
     display: inline-block;
 }
 
@@ -693,6 +688,8 @@ body {
     margin-right: 12px;
 }
 
-.clearfix {
+.clearfix:after {
+    content: '';
+    display: block;
     clear: both;
 }
