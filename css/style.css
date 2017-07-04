@@ -43,20 +43,24 @@ body {
 }
 
 .wrapper {
-    width: 1100px;
-    margin: 0 auto;
+
     background: #ffffff;
 }
 
 /*header*/
 .header {
     display: inline-block;
-    min-width: 100%;
-    overflow: hidden;
+    width: 100%;
+    height: 76px;
+}
+
+.wrapper_p {
+    margin: 0 auto;
+    width: 1100px;
 }
 
 .header_padding {
-    padding: 20px 21px 16px 20px;
+    padding: 20px 21px 0 20px;
 }
 
 .block-color {
@@ -65,7 +69,6 @@ body {
 
 .logo {
     float: left;
-
 }
 
 .contacts {
@@ -278,6 +281,9 @@ body {
 }
 
 /*page-partners*/
+.partners {
+    padding-bottom: 4px;
+}
 
 .partners__title {
     font-size: 49px;
@@ -291,18 +297,16 @@ body {
 }
 
 .partners__item {
-    display: inline-block;
-    width: 165px;
-    height: 75px;
+    vertical-align: middle;
+    display: inline-table;
+    text-align: center;
+    width: 168px;
 }
 
 .partners__item_position {
     margin-right: 92px;
     margin-bottom: 54px;
-    vertical-align: middle;
-    display: inline-table;
-    text-align: center;
-    width: 168px;
+
 }
 
 .partners__item:nth-child(3n) {
@@ -318,10 +322,6 @@ body {
 
 .partners__link:hover {
     filter: none;
-}
-
-.partners__link-img {
-
 }
 
 /*footer*/
