@@ -156,46 +156,61 @@
 
                 <!--form-->
 
-                <div class="form form_position">
+                <div class="form form_padding">
                     <h2 class="form__index-name">Оставить отзыв</h2>
-                    <div class="form__wrapper form__wrapper_position">
-                        <label for="name">Ваше имя<input type="text" id="name" class="form__input form__input_position"
-                                                         placeholder="Андрей"></label>
-                    </div>
-                    <div class="form__wrapper form__wrapper_position">
-                        <label for="link">Ссылка на профиль VK<input type="text" id="link"
-                                                                     class="form__input form__input_position"
-                                                                     placeholder="vk.com/example"></label>
-                    </div>
-                    <div class="form__comment form__comment_position">
-                        <label for="comment">Текст отзыва<textarea name="comment" id="comment"
-                                                                   class="comment__text comment__text_position"
-                                                                   placeholder="Мне понравилось"></textarea></label>
-                    </div>
-                    <div class="form__botton form__botton_position clearfix">
-                        <div class="form__radio-btn form__radio-btn_position">Отображать фото в отзыве?
-                            <label for="radio-btn-1" class="form__radio-label">
-                                <input type="radio" name="view-photo" id="radio-btn-1"
-                                       class="radio-btn radio-btn_position"
-                                       checked>Да
+                    <form action="" method="post">
+                        <div class="form__row clearfix">
+                            <label class="form__label-input">
+                                <div class="fotrm__title">Ваше имя</div>
+                                <input type="text" class="form__input" placeholder="Введите имя" name="name">
                             </label>
-                            <label for="radio-btn-2" class="form__radio-label">
-                                <input type="radio" name="view-photo" id="radio-btn-2"
-                                       class="radio-btn radio-btn_position">Нет
+                            <label class="form__label-input">
+                                <div class="fotrm__title">Ссылка на профиль VK</div>
+                                <input type="text" class="form__input" placeholder="vk.com/example" name="name">
                             </label>
                         </div>
-                        <button class="form__btn form__btn_positioon text_bold">
-                            <div class="btn__text">Отправить</div>
-                            <div class="btn__img btn__img_position "></div>
-                        </button>
-                    </div>
+                        <div class="form__row">
+                            <label class="form__label-textarea">
+                                <div class="fotrm__title">Текст отзыва</div>
+                                <textarea name="comment" class="form__comment" placeholder="Мне понравилось"></textarea>
+                            </label>
+                        </div>
+
+                        <div class="form__button clearfix">
+                            <div class="button__left">
+                                <div class="button__left-title">
+                                    Отображать фото в отзыве?
+                                </div>
+                                <div class="button__left-radio">
+                                    <label class="form__radio">
+                                        <input class="form__radio-btn" type="radio" name="photo" checked>
+                                        <div class="form__radio_fake"></div>
+                                        <div class="form__radio-title">Да</div>
+                                    </label>
+                                    <label class="form__radio">
+                                        <input class="form__radio-btn" type="radio" name="photo" >
+                                        <div class="form__radio_fake"></div>
+                                        <div class="form__radio-title">Нет</div>
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="button__right">
+                                <button class="form__btn text_bold">
+                                    <div class="btn__text">Отправить</div>
+                                    <div class="btn__img btn__img_position "></div>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+
 
             </main>
         </div>
     </section>
-
-
+    
 
     <!--footer-->
 
