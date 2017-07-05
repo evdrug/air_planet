@@ -25,6 +25,9 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -50,6 +53,11 @@ body {
 
 .wrapper {
     background: #ffffff;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    width: 100%;
+
 }
 
 /*header*/
@@ -114,8 +122,9 @@ body {
 /*content*/
 
 .content {
-    display: inline-block;
+    display: table-row;
     width: 100%;
+    height: 100%;
 }
 
 /*sidebar*/
