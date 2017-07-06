@@ -151,7 +151,7 @@ body {
 }
 
 .menu-nav__link {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     vertical-align: top;
 }
@@ -357,7 +357,7 @@ body {
 .author {
     float: left;
     width: 250px;
-    display: inline-block;
+
 
 }
 
@@ -709,9 +709,6 @@ body {
     display: inline-block;
 }
 
-.btn__text_position {
-
-}
 
 .btn__img_position {
     margin-left: 10px;
