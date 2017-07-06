@@ -25,8 +25,12 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 html{
     min-width: 1100px;
+=======
+html, body {
+>>>>>>> dbd2acefd09252e3add16b9115152126df3abc54
     height: 100%;
 }
 body {
@@ -53,6 +57,11 @@ body {
 
 .wrapper {
     background: #ffffff;
+    margin: 0 auto;
+    display: table;
+    height: 100%;
+    width: 100%;
+
 }
 
 /*header*/
@@ -117,8 +126,9 @@ body {
 /*content*/
 
 .content {
-    display: inline-block;
+    display: table-row;
     width: 100%;
+    height: 100%;
 }
 
 /*sidebar*/
