@@ -24,13 +24,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-<<<<<<< HEAD
-html{
-    min-width: 1100px;
-=======
 html, body {
->>>>>>> dbd2acefd09252e3add16b9115152126df3abc54
     height: 100%;
 }
 body {
