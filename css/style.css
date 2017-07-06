@@ -25,13 +25,16 @@
     box-sizing: border-box;
 }
 
+html{
+    min-width: 1100px;
+    height: 100%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #221f1f;
     font-size: 14px;
-    background: #cfd8dc;
 }
 
 .list_style {
@@ -764,9 +767,10 @@ body {
 }
 
 .crew__photo-item {
-    width: 400px;
+    width: 100%;
     position: absolute;
-    left: -70px;
+    bottom: 30px;
+    left: 0;
 }
 
 .crew__name {
