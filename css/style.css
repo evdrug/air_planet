@@ -762,15 +762,12 @@ body {
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
-    position: relative;
     margin-bottom: 11px;
 }
 
 .crew__photo-item {
     width: 100%;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
+
 }
 
 .crew__name {
