@@ -60,8 +60,8 @@ body {
 /*header*/
 
 .header {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    /*width: 100%;*/
 }
 
 .wrapper_p {
@@ -130,7 +130,7 @@ body {
 }
 
 .sidebar_padding {
-    padding-top: 42px;
+    padding-top: 46px;
     padding-left: 7px;
 }
 
@@ -209,7 +209,6 @@ body {
 
 .page {
     display: inline-block;
-    margin-top: -3px;
     width: 900px;
 }
 
@@ -413,6 +412,9 @@ body {
 
 .page_padding {
     margin-top: 40px;
+}
+.breadcrumbs {
+    padding-top: 3px;
 }
 
 .breadcrumbs__item {
