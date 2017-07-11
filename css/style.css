@@ -84,6 +84,10 @@ body {
     float: left;
 }
 
+.logo__link {
+    display: inline-block;
+}
+
 .contacts {
     text-align: right;
 }
